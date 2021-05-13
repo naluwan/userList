@@ -1,0 +1,70 @@
+#data-panel{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#card-wrapper .card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#card-wrapper .card:hover{
+  transform: scale(1.2);
+}
+
+#card-wrapper .border-secondary{
+  border-radius: 15px;
+}
+
+.card-img-top {
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 170px;
+  height: 170px;
+}
+
+.card-user-wrapper {
+  font-size: 20px;
+  padding-top: 2px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#card-wrapper {
+  padding-bottom: 15px;
+}
+
+#user-modal-avatar img{
+  border-radius: 50%;
+}
+
+.btn-group {
+  margin-bottom: 40px;
+  margin-left: 55px;
+}
+
+#icon-gender {
+  margin-right: 10px;
+}
+
+#social-img{
+  max-height: 300px;
+}
+
+.checked {
+  color: red;
+}
+
+#card-mode:hover,
+#list-mode:hover{
+  transform: scale(1.2, 1.2);
+}
+
+#list-avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
